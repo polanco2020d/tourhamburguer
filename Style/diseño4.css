@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+address {
+    font-style: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navegacion{
+    padding: 10px 10px 10px 10px;
+    position: relative;/*liberar contenedor*/
+    top: 0px;/*mover arriba*/
+    bottom: 50px;/*mover abajo*/
+    right: 0px;/*mover a la derecha*/
+    left: 0px;/*mover a la izquierda*/
+   
+    text-align: center;
+    width: 97%;
+
+
+
+} 
+.navegacion a  {
+    text-decoration: none;
+    padding: 00px ;
+    top: 50px;
+    margin-right: 100px;
+    font-size: 30px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: #000000;
+}
+.navegacion a:hover{
+    bottom: rgb(249, 4, 4);
+color: #c60000;
+box-shadow: 3px 3px 3px 3px;
+}

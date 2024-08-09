@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //condicionales
+        let nombre = prompt("");
+if (nombre == "J ose"){
+    alert(nombre+ "Bienvenido a la pagina")
+} else{
+    document.write("No eres jose, Quien eres ");
+}
+//--------------------------------------------------
+//&& es para evaluar si 2 situaciones son verdaderas
+let usuario =prompt("Ingrese usuario");
+let clave =prompt("Ingrese su contraseña");
+
+if (usuario == "Jose123" && clave == "12345"){
+document.write("<h1>"+ "hola: " +usuario+ "bienvenidos"+"</h1>")
+}else{
+    document.write("<h2> usuario o contraseña incorrector </h2>");
+}document.write("<a href='3-Condicionales.html'>Refresh</a> ");
+
+    </script>
+</head>
+<body>
+    <style>
+        body{
+  background-color: aqua;
+        }
+        h1{
+            color: antiquewhite;
+        }
+        h2{
+            color: azure;
+        }
+    </style>
+</body>
+</html>
